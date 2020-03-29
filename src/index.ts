@@ -20,4 +20,3 @@ export class Greeter {
     return this.salutation + " " + name;
   }
 }
-
