@@ -16,7 +16,7 @@ export class Greeter {
    * greetings method greets to the user by the given name.
    * @param name to be greeted
    */
-  public greetings(name: string) {
+  public greetings(name: string): string {
     return this.salutation + " " + name;
   }
 }
