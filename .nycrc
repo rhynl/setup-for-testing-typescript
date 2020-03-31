@@ -1,0 +1,24 @@
+{
+  "cache": false,
+  "check-coverage": true,
+  "branches": 80,
+  "lines": 80,
+  "function": 80,
+  "statements": 80,
+  "reporter": [
+    "text",
+    "html",
+    "lcov"
+  ],
+  "extention": [
+    ".ts"
+  ],
+  "sourceMap": true,
+  "instrument": true,
+  "require": [
+    "ts-node/register"
+  ],
+  "exclude": [
+    "**/**/*.spec.ts"
+  ]
+}
